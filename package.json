@@ -1,0 +1,11 @@
+{
+  "name": "push_api_node",
+  "version": "1.0.0",
+  "description": "Es un jemplo de una pagina web que hace uso de push api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JIELSAN",
+  "license": "ISC"
+}
