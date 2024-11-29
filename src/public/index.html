@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo01.css">
     <title>Notificaciones Web Push</title>
 </head>
 <body>
-    <h1>Hola</h1>
-
-    <form id="form">
-        <label for="">Mensaje</label>
-        <input type="text" placeholder="Escribe Tu Mensaje" id="message" autofocus>
-
-        <button>Enviar</button>
-    </form>
+    <div class="div-container">
+        <h1>Mensajes Dinámicos</h1>
+        <form id="form">
+            <label>Mensaje</label>
+            <input type="text" placeholder="Escribe Tu Mensaje" id="message" autofocus required>
+    
+            <button>Enviar</button>
+        </form>
+    </div>
     <!--Importacion de archivo main-->
     <script src="main.js"></script>
 </body>
