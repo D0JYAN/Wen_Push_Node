@@ -1,3 +1,5 @@
+//Ejecucion de DOTENV
+require('dotenv').config();
 //Importamos la libreria de express
 const express = require('express');
 //Importar morgan
@@ -18,7 +20,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());//Convertir los datos que llegan a JSON
 
 //Routes
-
+app.use('/notificaciones',  notificacionRoute)
 
 //Static Content
 app.use(express.static(path.join(__dirname, 'public')));
