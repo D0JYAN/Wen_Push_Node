@@ -46,4 +46,4 @@ Wen_Push_Node
   1. Una vez terminadas las pruebas y visto que todo funciona correctamente, posicionados en la terminal, se presionan las teclas `Ctrl + C`.
   2. ¡Y listo!
 
-#Nota: Todo el codigo tiene comentarios para su mejor comprension.
+## Nota: Todo el codigo tiene comentarios para su mejor comprension.
