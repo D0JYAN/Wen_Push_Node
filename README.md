@@ -1,7 +1,7 @@
 # ¿Qué Es?
 Este es un proyecto en el cual se muestra el uso de PUSH API en una página web, el objetivo es ver como una aplicacion (cliente) interactua con el servidor (servidor) para mostrar notificaciones personalizadas.
 
-#¿Qué Utiliza?
+# ¿Qué Utiliza?
 En este proyecto se hace uso de las siguientes herramientas:
   - Node.js (entorno de ejecución)
   - Express.js (manejo de rutas)
