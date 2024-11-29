@@ -23,6 +23,24 @@ const subscripcion = async () => {
     console.log('subscrito');
 }
 
+//Leer los inputs del form
+const form = document.querySelector('#form');
+const message = document.querySelector('#message');
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch('/notificaciones/nuevoMensaje', {
+        method: 'POST',
+        body: JSON.stringify({
+            message: message.value
+        }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+    form.reset();
+})
+
 function urlBase64ToUint8Array(base64String) {
     const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
     const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
