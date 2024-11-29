@@ -17,7 +17,7 @@ router.post('/nuevoMensaje', async (req, res) => {
     const { message } = req.body;
     //Datos a enviar
     const data = JSON.stringify({
-        title: 'Nueva notificación',
+        title: 'Notificación Enviada Desde El Servidor Con Push API Y Dice:',
         message: message
     })
     //Enviar la notificacion
