@@ -11,10 +11,14 @@ router.post('/subscripcion', async (req, res) => {
     pushSubscription = req.body;
     console.log(req.body);
     res.status(200).json();
+})
+//Enviar Notificacion
+router.post('/nuevoMensaje', async (req, res) => {
+    const { message } = req.body;
     //Datos a enviar
     const data = JSON.stringify({
         title: 'Nueva notificación',
-        message: 'Esta es una nueva notificación'
+        message: message
     })
     //Enviar la notificacion
     try {
